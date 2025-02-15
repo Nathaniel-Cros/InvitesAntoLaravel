@@ -1,0 +1,41 @@
+@import "react-image-gallery";
+
+#section-linetime {
+  background-image: url('@/assets/images/bg-second.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+span.image-gallery-thumbnail-inner img {
+  max-height: 70px;
+}
+.image-gallery {
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+  }
+}
+.image-gallery-slide-wrapper {
+  .image-gallery-icon {
+    .image-gallery-svg {
+      color: #010e30ff;
+    }
+  }
+}
+.image-gallery-thumbnails-wrapper {
+  .image-gallery-thumbnails {
+    .image-gallery-thumbnails-container {
+      .image-gallery-thumbnail.active, .image-gallery-thumbnail:focus, .image-gallery-thumbnail:hover {
+        border: 4px #010e30ff solid;
+        border-radius: 10%;
+      }
+      .image-gallery-thumbnail, .image-gallery-thumbnail-image {
+        border-radius: 10%;
+      }
+    }
+  }
+}
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  @media screen and (max-width: 768px) {
+    max-height: calc(100vh - 350px);
+  }
+}

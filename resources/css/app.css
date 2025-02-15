@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Arizonia&family=Carattere&family=Dynalight&family=Fleur+De+Leah&family=Imperial+Script&family=Romanesco&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.up-effect {
+    -moz-transform: translate(0px, -1500px);
+    -webkit-transform: translate(0px, -1500px);
+    -o-transform: translate(0px, -1500px);
+    -ms-transform: translate(0px, -1500px);
+    transform: translate(0px, -1500px);
+    transition: all 3s;
+}
+
+.down-effect {
+    -moz-transform: translate(0px, 1000px);
+    -webkit-transform: translate(0px, 1000px);
+    -o-transform: translate(0px, 1000px);
+    -ms-transform: translate(0px, 1000px);
+    transform: translate(0px, 1000px);
+    transition: all 3s;
+}

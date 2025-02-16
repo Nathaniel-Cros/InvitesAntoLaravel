@@ -1,14 +1,45 @@
-import { StrictMode } from 'react'
+import React from 'react'
 import { createRoot } from 'react-dom/client'
 import InviteComponent from './components/invite'
 import PageInviteComponent from './components/pageInvite'
+import { GetInvite} from './util';
+import useInviteStore from '@/store/inviteStore'
+
 import '../css/app.css'
 
-createRoot(document.getElementById('root')).render(
-    <StrictMode>
+const AppMain = () => {
+    const [firstTime, setFirstTime] = React.useState(false)
+    const invite = useInviteStore((state) => state.invite)
+    const setInvite = useInviteStore((state) => state.setInvite)
+
+    React.useEffect( () => {
+        if(!firstTime) {
+            setFirstTime(true)
+            const id = window.location.pathname.replace('/', '')
+            GetInvite(id).then(invite => {
+                if (!invite?.success) {
+                    window.href = '/'
+                }
+                console.log('Invite: ', invite)
+                setInvite(invite.data)
+            })
+        }
+    }, [firstTime])
+
+    React.useEffect(() => {
+        console.log('..:: Invite state ::..', invite)
+    },[invite])
+
+    return (
         <>
             <InviteComponent/>
             <PageInviteComponent/>
         </>
-    </StrictMode>,
+    )
+}
+
+createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+        <AppMain />
+    </React.StrictMode>,
 )

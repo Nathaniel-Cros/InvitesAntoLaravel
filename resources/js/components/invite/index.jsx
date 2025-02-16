@@ -8,13 +8,10 @@ import LetterA from '@/assets/images/Open.webp'
 
 const InviteComponent = () => {
     const openInvite = useInviteStore((state) => state.openInvite)
+    const invite = useInviteStore((state) => state.invite)
     const setOpenInvite = useInviteStore((state) => state.setOpenInvite)
-    React.useEffect( () => {
-        console.log('..:: Open invite ::..', openInvite)
-    }, [openInvite])
 
     const OpenInvite = () => {
-        console.log('..:: Open invite ::..')
         const btnOpen = document.querySelector('#btn-open');
         const inviteTopElement = document.querySelector('#InviteTop');
         const inviteBottomElement = document.querySelector('#InviteBottom');
@@ -24,7 +21,7 @@ const InviteComponent = () => {
             btnOpen.classList.add('invisible')
             inviteTopElement.classList.add('up-effect')
             inviteBottomElement.classList.add('down-effect')
-            familyName.classList.add('animate-fade')
+            familyName.classList.add('down-effect')
             setTimeout(() => {
                 inviteTopElement.classList.add('invisible')
                 inviteBottomElement.classList.add('invisible')
@@ -41,7 +38,7 @@ const InviteComponent = () => {
             <section
                 className='flex flex-col w-screen h-screen justify-center content-center absolute left-0 top-0 z-0'>
                 <span id='family-name' className='text-4xl md:text-6xl font-Romanesco bg-[#dabb85ff] rounded px-4 text-[#010e30ff] absolute top-[73%] left-[5%] md:top-[64%] md:left-[15%] z-50'>
-                    Familia Lara Avila
+                    Familia {invite?.family}
                 </span>
                 <button id='btn-open'
                         className='h-[10%] md:h-[15%] w-[20%] md:w-[20%] flex justify-center items-center rounded-full z-50 m-auto'

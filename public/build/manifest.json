@@ -1,0 +1,128 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app-BNSdPwPq.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-DMweTiam.css"
+    ],
+    "assets": [
+      "assets/sobre_1-CUmJSK18.png",
+      "assets/sobre_1_M-CSwhp66k.png",
+      "assets/sobre_2-Cizs6_zW.png",
+      "assets/sobre_2_M-D8zqEJL0.png",
+      "assets/Open-tdGT1UlR.webp",
+      "assets/bg-esc-cf34-yZf.mp4",
+      "assets/FrasePhoto-DWNbHeLn.jpeg",
+      "assets/first-BEM_C1I6.jpeg",
+      "assets/second-Bs5J9QW9.jpeg",
+      "assets/third-BbnEmJCx.jpeg",
+      "assets/fourth-Del7F3lg.jpeg",
+      "assets/fifth-BIRgAlSw.jpeg",
+      "assets/sixth-C7b_RjGo.jpeg",
+      "assets/seventh-3gqLNCYs.jpeg",
+      "assets/eigth-oynCh7zY.jpeg",
+      "assets/bg-CjOL-Una.mp4",
+      "assets/text-decorator-BsFZA-W4.png",
+      "assets/icon-dreess-CBAKLu8o.png",
+      "assets/fondoEstrellado-C_VSuXsB.gif",
+      "assets/bg-second-Cc-3qg_r.png",
+      "assets/bgCount-DoIq8DyP.jpeg",
+      "assets/bg-confirmation-DIOFPSn6.jpg"
+    ]
+  },
+  "resources/js/assets/images/FrasePhoto.jpeg": {
+    "file": "assets/FrasePhoto-DWNbHeLn.jpeg",
+    "src": "resources/js/assets/images/FrasePhoto.jpeg"
+  },
+  "resources/js/assets/images/Open.webp": {
+    "file": "assets/Open-tdGT1UlR.webp",
+    "src": "resources/js/assets/images/Open.webp"
+  },
+  "resources/js/assets/images/TimeLine/eigth.jpeg": {
+    "file": "assets/eigth-oynCh7zY.jpeg",
+    "src": "resources/js/assets/images/TimeLine/eigth.jpeg"
+  },
+  "resources/js/assets/images/TimeLine/fifth.jpeg": {
+    "file": "assets/fifth-BIRgAlSw.jpeg",
+    "src": "resources/js/assets/images/TimeLine/fifth.jpeg"
+  },
+  "resources/js/assets/images/TimeLine/first.jpeg": {
+    "file": "assets/first-BEM_C1I6.jpeg",
+    "src": "resources/js/assets/images/TimeLine/first.jpeg"
+  },
+  "resources/js/assets/images/TimeLine/fourth.jpeg": {
+    "file": "assets/fourth-Del7F3lg.jpeg",
+    "src": "resources/js/assets/images/TimeLine/fourth.jpeg"
+  },
+  "resources/js/assets/images/TimeLine/second.jpeg": {
+    "file": "assets/second-Bs5J9QW9.jpeg",
+    "src": "resources/js/assets/images/TimeLine/second.jpeg"
+  },
+  "resources/js/assets/images/TimeLine/seventh.jpeg": {
+    "file": "assets/seventh-3gqLNCYs.jpeg",
+    "src": "resources/js/assets/images/TimeLine/seventh.jpeg"
+  },
+  "resources/js/assets/images/TimeLine/sixth.jpeg": {
+    "file": "assets/sixth-C7b_RjGo.jpeg",
+    "src": "resources/js/assets/images/TimeLine/sixth.jpeg"
+  },
+  "resources/js/assets/images/TimeLine/third.jpeg": {
+    "file": "assets/third-BbnEmJCx.jpeg",
+    "src": "resources/js/assets/images/TimeLine/third.jpeg"
+  },
+  "resources/js/assets/images/bg-confirmation.jpg": {
+    "file": "assets/bg-confirmation-DIOFPSn6.jpg",
+    "src": "resources/js/assets/images/bg-confirmation.jpg"
+  },
+  "resources/js/assets/images/bg-second.png": {
+    "file": "assets/bg-second-Cc-3qg_r.png",
+    "src": "resources/js/assets/images/bg-second.png"
+  },
+  "resources/js/assets/images/bgCount.jpeg": {
+    "file": "assets/bgCount-DoIq8DyP.jpeg",
+    "src": "resources/js/assets/images/bgCount.jpeg"
+  },
+  "resources/js/assets/images/fondoEstrellado.gif": {
+    "file": "assets/fondoEstrellado-C_VSuXsB.gif",
+    "src": "resources/js/assets/images/fondoEstrellado.gif"
+  },
+  "resources/js/assets/images/icon-dreess.png": {
+    "file": "assets/icon-dreess-CBAKLu8o.png",
+    "src": "resources/js/assets/images/icon-dreess.png"
+  },
+  "resources/js/assets/images/sobre_1.png": {
+    "file": "assets/sobre_1-CUmJSK18.png",
+    "src": "resources/js/assets/images/sobre_1.png"
+  },
+  "resources/js/assets/images/sobre_1_M.png": {
+    "file": "assets/sobre_1_M-CSwhp66k.png",
+    "src": "resources/js/assets/images/sobre_1_M.png"
+  },
+  "resources/js/assets/images/sobre_2.png": {
+    "file": "assets/sobre_2-Cizs6_zW.png",
+    "src": "resources/js/assets/images/sobre_2.png"
+  },
+  "resources/js/assets/images/sobre_2_M.png": {
+    "file": "assets/sobre_2_M-D8zqEJL0.png",
+    "src": "resources/js/assets/images/sobre_2_M.png"
+  },
+  "resources/js/assets/images/text-decorator.png": {
+    "file": "assets/text-decorator-BsFZA-W4.png",
+    "src": "resources/js/assets/images/text-decorator.png"
+  },
+  "resources/js/assets/video/bg-esc.mp4": {
+    "file": "assets/bg-esc-cf34-yZf.mp4",
+    "src": "resources/js/assets/video/bg-esc.mp4"
+  },
+  "resources/js/assets/video/bg.mp4": {
+    "file": "assets/bg-CjOL-Una.mp4",
+    "src": "resources/js/assets/video/bg.mp4"
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-BaVMVknW.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}

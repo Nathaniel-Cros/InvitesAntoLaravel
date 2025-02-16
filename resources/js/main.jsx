@@ -9,7 +9,6 @@ import '../css/app.css'
 
 const AppMain = () => {
     const [firstTime, setFirstTime] = React.useState(false)
-    const invite = useInviteStore((state) => state.invite)
     const setInvite = useInviteStore((state) => state.setInvite)
 
     React.useEffect( () => {
@@ -20,15 +19,10 @@ const AppMain = () => {
                 if (!invite?.success) {
                     window.href = '/'
                 }
-                console.log('Invite: ', invite)
                 setInvite(invite.data)
             })
         }
     }, [firstTime])
-
-    React.useEffect(() => {
-        console.log('..:: Invite state ::..', invite)
-    },[invite])
 
     return (
         <>

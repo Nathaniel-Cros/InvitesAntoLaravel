@@ -10,10 +10,6 @@ import useInviteStore from '@/store/inviteStore'
 const PageInviteComponent = () => {
     const { openInvite } = useInviteStore()
 
-    React.useEffect(() => {
-        console.log('..:: Open in page ::..', openInvite)
-    }, [openInvite])
-
     if(!openInvite) return null
 
     return (

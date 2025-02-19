@@ -1,4 +1,6 @@
 import React from 'react'
+import ScrollReveal from '@/components/ScrollReveal'
+
 import '@/styles/thirdSecction/global.scss'
 
 const ThirdSectionComponent = () => {
@@ -62,12 +64,12 @@ const ThirdSectionComponent = () => {
     return (
         <>
             <section id='countdown-timer-container' className='flex flex-col justify-center items-center w-full min-h-[600px] gap-y-8'>
-                <div>
+                <ScrollReveal>
                     <h2 className='text-7xl font-FleurDeLeah text-[#c3b491]'>{eventName}</h2>
-                </div>
-                <div className='flex flex-row justify-center items-center text-3xl gap-x-3'>
+                </ScrollReveal>
+                <ScrollReveal classNames='flex flex-row justify-center items-center text-3xl gap-x-3'>
                     {formatTime(timeRemaining)}
-                </div>
+                </ScrollReveal>
             </section>
         </>
     )

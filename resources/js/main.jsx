@@ -2,13 +2,16 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import InviteComponent from './components/invite'
 import PageInviteComponent from './components/pageInvite'
-import { GetInvite} from './util';
+import { GetInvite} from './util'
+import LoaderComponent from '@/components/loader'
+
 import useInviteStore from '@/store/inviteStore'
 
 import '../css/app.css'
 
 const AppMain = () => {
     const [firstTime, setFirstTime] = React.useState(false)
+    const [hasInvite, setHasInvite] = React.useState(false)
     const setInvite = useInviteStore((state) => state.setInvite)
 
     React.useEffect( () => {
@@ -20,9 +23,14 @@ const AppMain = () => {
                     window.href = '/'
                 }
                 setInvite(invite.data)
+                setTimeout(() => {
+                    setHasInvite(true)
+                }, 2000)
             })
         }
     }, [firstTime])
+
+    if(!hasInvite) return <LoaderComponent />
 
     return (
         <>

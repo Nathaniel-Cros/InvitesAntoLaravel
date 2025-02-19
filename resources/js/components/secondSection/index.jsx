@@ -1,5 +1,6 @@
 import React from 'react'
-import ImageGallery from "react-image-gallery";
+import ImageGallery from 'react-image-gallery'
+import ScrollReveal from '@/components/ScrollReveal'
 
 import First from '@/assets/images/TimeLine/first.jpeg'
 import Second from '@/assets/images/TimeLine/second.jpeg'
@@ -48,10 +49,10 @@ const SecondSectionComponent = () => {
     ];
     return (
         <>
-            <section id='section-linetime' className='flex flex-col min-h-screen justify-center items-center gap-y-4 pt-20 pb-10 bg-[#c3b491]'>
+            <ScrollReveal id='section-linetime' classNames='flex flex-col min-h-screen justify-center items-center gap-y-4 pt-20 pb-10 bg-[#c3b491]'>
                 <h2 className='text-6xl font-Carattere text-center text-[#010e30ff] pr-2 pl-2'>Mi galería</h2>
                 <ImageGallery items={images} loading='lazy' lazyLoad showPlayButton={false} showThumbnails={false} />
-            </section>
+            </ScrollReveal>
         </>
     )
 }

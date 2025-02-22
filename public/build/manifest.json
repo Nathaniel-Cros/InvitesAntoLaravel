@@ -1,11 +1,11 @@
 {
   "resources/js/app.js": {
-    "file": "assets/app-DqM-fRTp.js",
+    "file": "assets/app-DsDbqIa_.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-BxrCXQmT.css"
+      "assets/app-B8njNbD7.css"
     ],
     "assets": [
       "assets/sobre_1-CUmJSK18.png",
@@ -15,12 +15,9 @@
       "assets/Open-tdGT1UlR.webp",
       "assets/FrasePhoto-DWNbHeLn.jpeg",
       "assets/first-BEM_C1I6.jpeg",
-      "assets/eigth-oynCh7zY.jpeg",
+      "assets/second-oynCh7zY.jpeg",
       "assets/third-BbnEmJCx.jpeg",
       "assets/fourth-SS6ZvViA.jpeg",
-      "assets/fifth-BIRgAlSw.jpeg",
-      "assets/sixth-C7b_RjGo.jpeg",
-      "assets/seventh-3gqLNCYs.jpeg",
       "assets/bg-CjOL-Una.mp4",
       "assets/text-decorator-BsFZA-W4.png",
       "assets/icon-dreess-CBAKLu8o.png",
@@ -40,14 +37,6 @@
     "file": "assets/Open-tdGT1UlR.webp",
     "src": "resources/js/assets/images/Open.webp"
   },
-  "resources/js/assets/images/TimeLine/eigth.jpeg": {
-    "file": "assets/eigth-oynCh7zY.jpeg",
-    "src": "resources/js/assets/images/TimeLine/eigth.jpeg"
-  },
-  "resources/js/assets/images/TimeLine/fifth.jpeg": {
-    "file": "assets/fifth-BIRgAlSw.jpeg",
-    "src": "resources/js/assets/images/TimeLine/fifth.jpeg"
-  },
   "resources/js/assets/images/TimeLine/first.jpeg": {
     "file": "assets/first-BEM_C1I6.jpeg",
     "src": "resources/js/assets/images/TimeLine/first.jpeg"
@@ -57,16 +46,8 @@
     "src": "resources/js/assets/images/TimeLine/fourth.jpeg"
   },
   "resources/js/assets/images/TimeLine/second.jpeg": {
-    "file": "assets/eigth-oynCh7zY.jpeg",
-    "src": "resources/js/assets/images/TimeLine/eigth.jpeg"
-  },
-  "resources/js/assets/images/TimeLine/seventh.jpeg": {
-    "file": "assets/seventh-3gqLNCYs.jpeg",
-    "src": "resources/js/assets/images/TimeLine/seventh.jpeg"
-  },
-  "resources/js/assets/images/TimeLine/sixth.jpeg": {
-    "file": "assets/sixth-C7b_RjGo.jpeg",
-    "src": "resources/js/assets/images/TimeLine/sixth.jpeg"
+    "file": "assets/second-oynCh7zY.jpeg",
+    "src": "resources/js/assets/images/TimeLine/second.jpeg"
   },
   "resources/js/assets/images/TimeLine/third.jpeg": {
     "file": "assets/third-BbnEmJCx.jpeg",

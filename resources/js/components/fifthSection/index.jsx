@@ -49,8 +49,8 @@ const fifthSection = () => {
                 <img src={TextDecorator} className='image-decorator' alt='Dress Icon' />
                 </ScrollReveal>
                 <ScrollReveal classNames='flex flex-col gap-y-8'>
-                    <span className='font-Carattere text-3xl'>Por favor, confirma tu asistencia a este día tan especial</span>
-                    <span className='font-Carattere text-3xl'>¡Tu respuesta es muy importante!</span>
+                    <span className='font-Carattere text-3xl text-center'>Por favor, confirma tu asistencia a este día tan especial</span>
+                    <span className='font-Carattere text-3xl text-center'>¡Tu respuesta es muy importante!</span>
                 </ScrollReveal>
                 <ScrollReveal classNames='flex flex-col gap-y-8'>
                     <span className='text-7xl font-Carattere text-center'>Familia {invite?.family}</span>

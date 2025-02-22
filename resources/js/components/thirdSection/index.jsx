@@ -5,13 +5,8 @@ import '@/styles/thirdSecction/global.scss'
 
 const ThirdSectionComponent = () => {
     const eventName ="Faltan"
-    const eventDate= "2025-07-26:18:30:00"
-    const [timeRemaining, setTimeRemaining] = React.useState(0);
-
-    const formatDate = (date) => {
-        const options = { month: "long", day: "numeric", year: "numeric" };
-        return new Date(date).toLocaleDateString("en-US", options);
-    };
+    const eventDate= "2025-07-12:18:30:00".split(/[- :]/)
+    const [timeRemaining, setTimeRemaining] = React.useState(0)
 
     const formatTime = (time) => {
         const seconds = Math.floor((time / 1000) % 60);
@@ -45,7 +40,7 @@ const ThirdSectionComponent = () => {
         if (eventDate) {
             const countdownInterval = setInterval(() => {
                 const currentTime = new Date().getTime();
-                const eventTime = new Date(eventDate).getTime();
+                const eventTime = new Date(eventDate[0], eventDate[1]-1, eventDate[2], eventDate[3], eventDate[4], eventDate[5]).getTime();
                 let remainingTime = eventTime - currentTime;
 
                 if (remainingTime <= 0) {

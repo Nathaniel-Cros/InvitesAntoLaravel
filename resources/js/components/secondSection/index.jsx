@@ -49,10 +49,14 @@ const SecondSectionComponent = () => {
     ];
     return (
         <>
-            <ScrollReveal id='section-linetime' classNames='flex flex-col min-h-screen justify-center items-center gap-y-4 pt-20 pb-10 bg-[#c3b491]'>
-                <h2 className='text-6xl font-Carattere text-center text-[#010e30ff] pr-2 pl-2'>Mi galería</h2>
-                <ImageGallery items={images} loading='lazy' lazyLoad showPlayButton={false} showThumbnails={false} />
-            </ScrollReveal>
+            <section id='section-linetime' className='flex flex-col min-h-screen justify-center items-center gap-y-4 pt-20 pb-10 bg-[#c3b491]'>
+                <ScrollReveal classNames='flex flex-col items-center'>
+                    <h2 className='text-6xl font-Carattere text-center text-[#010e30ff] pr-2 pl-2'>Mi galería</h2>
+                </ScrollReveal>
+                <ScrollReveal classNames='flex flex-col items-center'>
+                    <ImageGallery items={images} loading='lazy' lazyLoad showPlayButton={false} showThumbnails={false} />
+                </ScrollReveal>
+            </section>
         </>
     )
 }

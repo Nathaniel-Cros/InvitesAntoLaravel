@@ -5,6 +5,7 @@ import SecondSectionComponent from '@/components/secondSection'
 import ThirdSectionComponent from '@/components/thirdSection'
 import FourthSectionComponent from '@/components/fourthSection'
 import FifthSectionComponent from '@/components/fifthSection'
+import PlayerMedia from '@/components/PlayerMedia'
 import useInviteStore from '@/store/inviteStore'
 
 const PageInviteComponent = () => {
@@ -14,6 +15,7 @@ const PageInviteComponent = () => {
 
     return (
         <div>
+            <PlayerMedia />
             <FirstSectionComponent />
             <InviteText />
             <SecondSectionComponent />

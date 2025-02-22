@@ -46,7 +46,7 @@ const fifthSection = () => {
                     <h1 className='text-decorator font-Carattere text-7xl z-10'>¿Asistiras?</h1>
                 </ScrollReveal>
                 <ScrollReveal  classNames='w-auto h-14 absolute mt-[-44rem] md:mt-[-36rem] z-0 gap-y-8'>
-                <img src={TextDecorator} alt='Dress Icon' />
+                <img src={TextDecorator} className='image-decorator' alt='Dress Icon' />
                 </ScrollReveal>
                 <ScrollReveal classNames='flex flex-col gap-y-8'>
                     <span className='font-Carattere text-3xl'>Por favor, confirma tu asistencia a este día tan especial</span>

@@ -1,11 +1,11 @@
 {
   "resources/js/app.js": {
-    "file": "assets/app-DYALMjde.js",
+    "file": "assets/app-Cxl6mWfp.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-BHcAqg-T.css"
+      "assets/app-BxrCXQmT.css"
     ],
     "assets": [
       "assets/sobre_1-CUmJSK18.png",
@@ -13,7 +13,6 @@
       "assets/sobre_2-Cizs6_zW.png",
       "assets/sobre_2_M-D8zqEJL0.png",
       "assets/Open-tdGT1UlR.webp",
-      "assets/bg-esc-cf34-yZf.mp4",
       "assets/FrasePhoto-DWNbHeLn.jpeg",
       "assets/first-BEM_C1I6.jpeg",
       "assets/second-Bs5J9QW9.jpeg",
@@ -26,6 +25,8 @@
       "assets/bg-CjOL-Una.mp4",
       "assets/text-decorator-BsFZA-W4.png",
       "assets/icon-dreess-CBAKLu8o.png",
+      "assets/play-Cob0B2ez.png",
+      "assets/PERFECT-D4q0K5Vh.mp3",
       "assets/fondoEstrellado-C_VSuXsB.gif",
       "assets/bg-second-Cc-3qg_r.png",
       "assets/bgCount-DoIq8DyP.jpeg",
@@ -92,6 +93,10 @@
     "file": "assets/icon-dreess-CBAKLu8o.png",
     "src": "resources/js/assets/images/icon-dreess.png"
   },
+  "resources/js/assets/images/play.png": {
+    "file": "assets/play-Cob0B2ez.png",
+    "src": "resources/js/assets/images/play.png"
+  },
   "resources/js/assets/images/sobre_1.png": {
     "file": "assets/sobre_1-CUmJSK18.png",
     "src": "resources/js/assets/images/sobre_1.png"
@@ -112,9 +117,9 @@
     "file": "assets/text-decorator-BsFZA-W4.png",
     "src": "resources/js/assets/images/text-decorator.png"
   },
-  "resources/js/assets/video/bg-esc.mp4": {
-    "file": "assets/bg-esc-cf34-yZf.mp4",
-    "src": "resources/js/assets/video/bg-esc.mp4"
+  "resources/js/assets/song/PERFECT.mp3": {
+    "file": "assets/PERFECT-D4q0K5Vh.mp3",
+    "src": "resources/js/assets/song/PERFECT.mp3"
   },
   "resources/js/assets/video/bg.mp4": {
     "file": "assets/bg-CjOL-Una.mp4",

@@ -1,6 +1,6 @@
 {
   "resources/js/app.js": {
-    "file": "assets/app-wR88s_vr.js",
+    "file": "assets/app-DqM-fRTp.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -15,13 +15,12 @@
       "assets/Open-tdGT1UlR.webp",
       "assets/FrasePhoto-DWNbHeLn.jpeg",
       "assets/first-BEM_C1I6.jpeg",
-      "assets/second-Bs5J9QW9.jpeg",
+      "assets/eigth-oynCh7zY.jpeg",
       "assets/third-BbnEmJCx.jpeg",
-      "assets/fourth-Del7F3lg.jpeg",
+      "assets/fourth-SS6ZvViA.jpeg",
       "assets/fifth-BIRgAlSw.jpeg",
       "assets/sixth-C7b_RjGo.jpeg",
       "assets/seventh-3gqLNCYs.jpeg",
-      "assets/eigth-oynCh7zY.jpeg",
       "assets/bg-CjOL-Una.mp4",
       "assets/text-decorator-BsFZA-W4.png",
       "assets/icon-dreess-CBAKLu8o.png",
@@ -54,12 +53,12 @@
     "src": "resources/js/assets/images/TimeLine/first.jpeg"
   },
   "resources/js/assets/images/TimeLine/fourth.jpeg": {
-    "file": "assets/fourth-Del7F3lg.jpeg",
+    "file": "assets/fourth-SS6ZvViA.jpeg",
     "src": "resources/js/assets/images/TimeLine/fourth.jpeg"
   },
   "resources/js/assets/images/TimeLine/second.jpeg": {
-    "file": "assets/second-Bs5J9QW9.jpeg",
-    "src": "resources/js/assets/images/TimeLine/second.jpeg"
+    "file": "assets/eigth-oynCh7zY.jpeg",
+    "src": "resources/js/assets/images/TimeLine/eigth.jpeg"
   },
   "resources/js/assets/images/TimeLine/seventh.jpeg": {
     "file": "assets/seventh-3gqLNCYs.jpeg",

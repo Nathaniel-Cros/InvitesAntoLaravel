@@ -4,7 +4,7 @@ import ScrollReveal from '@/components/ScrollReveal'
 import '@/styles/thirdSecction/global.scss'
 
 const ThirdSectionComponent = () => {
-    const eventName ="Faltan"
+    const eventName ="El tiempo avanza y la emoción crece... "
     const eventDate= "2025-07-12:18:00:00".split(/[- :]/)
     const [timeRemaining, setTimeRemaining] = React.useState(0)
 
@@ -59,8 +59,9 @@ const ThirdSectionComponent = () => {
     return (
         <>
             <section id='countdown-timer-container' className='flex flex-col justify-center items-center w-full min-h-[600px] gap-y-8'>
-                <ScrollReveal>
-                    <h2 className='text-7xl font-FleurDeLeah text-[#c3b491]'>{eventName}</h2>
+                <ScrollReveal classNames='flex flex-col items-center justify-center gap-y-4'>
+                    <h2 className='text-4xl md:text-7xl text-center font-Carattere text-[#c3b491]'>{eventName}</h2>
+                    <span className='text-xl md:text-4xl text-center font-Arizona text-[#c3b491]'>La cuenta regresiva ha comenzado… ¡Y no podríamos estar más emocionados de vivirlo contigo!</span>
                 </ScrollReveal>
                 <ScrollReveal classNames='flex flex-row justify-center items-center text-3xl gap-x-3'>
                     {formatTime(timeRemaining)}

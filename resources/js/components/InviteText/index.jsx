@@ -1,5 +1,5 @@
 import React from 'react'
-import Photo from '@/assets/images/FrasePhoto.jpeg'
+import Photo from '@/assets/images/TimeLine/second.jpeg'
 import ScrollReveal from '@/components/ScrollReveal'
 import '@/styles/InviteText/global.scss'
 
@@ -11,11 +11,11 @@ const InviteText = () => {
                 <h1 className="text-center text-6xl font-Carattere text-[#c3b491]">Luzyeisy te invita...</h1>
             </div>
             <div className='flex flex-col md:flex-row justify-center items-center'>
-                <ScrollReveal classNames='w-11/12 md:w-5/12 p-7'>
-                    <span className='text-one text-2xl md:text-6xl font-Alice text-[#c3b491]'>
+                <ScrollReveal classNames='w-11/12 md:w-5/12 p-7 text-justify'>
+                    <span className='text-one text-2xl md:text-4xl font-Cormorant text-[#c3b491]'>
                         Algunas noches son simplemente inolvidables, y esta será una de ellas.
                         <br/>
-                        <span className='text-3xl md:text-7xl pl-3'>Antonella</span> inicia un nuevo capítulo en su vida, y no sería lo mismo sin ti. Eres parte de esta historia, y juntos haremos de este momento algo mágico.
+                        <span className='text-3xl md:text-5xl pl-3'>Antonella</span> inicia un nuevo capítulo en su vida, y no sería lo mismo sin ti. Eres parte de esta historia, y juntos haremos de este momento algo mágico.
                     </span>
                 </ScrollReveal>
                 <ScrollReveal classNames='w-11/12 md:w-5/12 p-7'>

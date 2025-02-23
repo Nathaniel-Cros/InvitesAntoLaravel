@@ -54,12 +54,12 @@ const fifthSection = () => {
                 </ScrollReveal>
                 <ScrollReveal classNames='flex flex-col gap-y-8'>
                     <span className='text-7xl font-Carattere text-center'>Familia {invite?.family}</span>
-                    <span className='font-Alice text-2xl text-center'>Tiene {invitesTotal} pases: {invite.adults > 1? `${invite.adults} adultos`:`${invite.adults} adulto`} {invite.children > 0? `${invite.children} niño${invite.children > 1? 's':''}`:``}</span>
+                    <span className='font-Cormorant text-2xl text-center'>Tiene {invitesTotal} pases: {invite.adults > 1? `${invite.adults} adultos`:`${invite.adults} adulto`} {invite.children > 0? `${invite.children} niño${invite.children > 1? 's':''}`:``}</span>
                 </ScrollReveal>
                 <ScrollReveal >
                     <div className='flex flex-col gap-y-3'>
                         { invite.adults > 1 &&
-                            <div className='flex flex-row gap-x-3 font-Alice text-2xl'>
+                            <div className='flex flex-row gap-x-3 font-Cormorant text-2xl'>
                                 <span>Confirmar adultos:</span>
                                 <select name="adults-confrmation" id="adults-confirmation">
                                     {
@@ -71,7 +71,7 @@ const fifthSection = () => {
                             </div>
                         }
                         { invite.children > 1 &&
-                            <div className='flex flex-row gap-x-3 font-Alice text-2xl'>
+                            <div className='flex flex-row gap-x-3 font-Cormorant text-2xl'>
                                 <span>Confirmar niños:</span>
                                 <select name="children-confrmation" id="children-confirmation">
                                     {

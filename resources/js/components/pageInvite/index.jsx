@@ -5,6 +5,7 @@ import SecondSectionComponent from '@/components/secondSection'
 import ThirdSectionComponent from '@/components/thirdSection'
 import FourthSectionComponent from '@/components/fourthSection'
 import FifthSectionComponent from '@/components/fifthSection'
+import SixthSection from '@/components/sixthSection'
 import PlayerMedia from '@/components/PlayerMedia'
 import useInviteStore from '@/store/inviteStore'
 
@@ -22,6 +23,7 @@ const PageInviteComponent = () => {
             <ThirdSectionComponent />
             <FourthSectionComponent />
             <FifthSectionComponent />
+            <SixthSection />
         </div>
     )
 }

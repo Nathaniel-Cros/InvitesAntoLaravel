@@ -1,11 +1,11 @@
 {
   "resources/js/app.js": {
-    "file": "assets/app-Dfwmpm1G.js",
+    "file": "assets/app-BtT2fq1Y.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-BZqpVPM0.css"
+      "assets/app-C2wh0RsN.css"
     ],
     "assets": [
       "assets/sobre_1-CUmJSK18.png",
@@ -13,25 +13,22 @@
       "assets/sobre_2-Cizs6_zW.png",
       "assets/sobre_2_M-D8zqEJL0.png",
       "assets/Open-tdGT1UlR.webp",
-      "assets/FrasePhoto-DWNbHeLn.jpeg",
-      "assets/first-BEM_C1I6.jpeg",
       "assets/second-oynCh7zY.jpeg",
+      "assets/first-BEM_C1I6.jpeg",
       "assets/third-BbnEmJCx.jpeg",
       "assets/fourth-SS6ZvViA.jpeg",
       "assets/bg-CjOL-Una.mp4",
       "assets/text-decorator-BsFZA-W4.png",
       "assets/icon-dreess-CBAKLu8o.png",
+      "assets/Top_pergamino-CGZylDKz.png",
       "assets/play-Cob0B2ez.png",
       "assets/PERFECT-D4q0K5Vh.mp3",
       "assets/fondoEstrellado-C_VSuXsB.gif",
       "assets/bg-second-Cc-3qg_r.png",
       "assets/bgCount-DoIq8DyP.jpeg",
-      "assets/bg-confirmation-DIOFPSn6.jpg"
+      "assets/bg-confirmation-DIOFPSn6.jpg",
+      "assets/pergamino-CW8lOSlW.png"
     ]
-  },
-  "resources/js/assets/images/FrasePhoto.jpeg": {
-    "file": "assets/FrasePhoto-DWNbHeLn.jpeg",
-    "src": "resources/js/assets/images/FrasePhoto.jpeg"
   },
   "resources/js/assets/images/Open.webp": {
     "file": "assets/Open-tdGT1UlR.webp",
@@ -53,6 +50,10 @@
     "file": "assets/third-BbnEmJCx.jpeg",
     "src": "resources/js/assets/images/TimeLine/third.jpeg"
   },
+  "resources/js/assets/images/Top_pergamino.png": {
+    "file": "assets/Top_pergamino-CGZylDKz.png",
+    "src": "resources/js/assets/images/Top_pergamino.png"
+  },
   "resources/js/assets/images/bg-confirmation.jpg": {
     "file": "assets/bg-confirmation-DIOFPSn6.jpg",
     "src": "resources/js/assets/images/bg-confirmation.jpg"
@@ -72,6 +73,10 @@
   "resources/js/assets/images/icon-dreess.png": {
     "file": "assets/icon-dreess-CBAKLu8o.png",
     "src": "resources/js/assets/images/icon-dreess.png"
+  },
+  "resources/js/assets/images/pergamino.png": {
+    "file": "assets/pergamino-CW8lOSlW.png",
+    "src": "resources/js/assets/images/pergamino.png"
   },
   "resources/js/assets/images/play.png": {
     "file": "assets/play-Cob0B2ez.png",

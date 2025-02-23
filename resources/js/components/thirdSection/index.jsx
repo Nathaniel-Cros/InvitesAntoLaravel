@@ -61,7 +61,7 @@ const ThirdSectionComponent = () => {
             <section id='countdown-timer-container' className='flex flex-col justify-center items-center w-full min-h-[600px] gap-y-8'>
                 <ScrollReveal classNames='flex flex-col items-center justify-center gap-y-4'>
                     <h2 className='text-4xl md:text-7xl text-center font-Carattere text-[#c3b491]'>{eventName}</h2>
-                    <span className='text-xl md:text-4xl text-center font-Arizona text-[#c3b491]'>La cuenta regresiva ha comenzado… ¡Y no podríamos estar más emocionados de vivirlo contigo!</span>
+                    <span className='text-xl md:text-4xl text-center font-Cormorant text-[#c3b491]'>La cuenta regresiva ha comenzado… ¡Y no podríamos estar más emocionados de vivirlo contigo!</span>
                 </ScrollReveal>
                 <ScrollReveal classNames='flex flex-row justify-center items-center text-3xl gap-x-3'>
                     {formatTime(timeRemaining)}

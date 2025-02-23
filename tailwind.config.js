@@ -19,6 +19,7 @@ export default {
                 FleurDeLeah: ['Fleur De Leah', 'serif'],
                 ImperialScript: ['Imperial Script', 'serif'],
                 Romanesco: ['Romanesco', 'serif'],
+                Cormorant: ['Cormorant', 'serif'],
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
             animation: {

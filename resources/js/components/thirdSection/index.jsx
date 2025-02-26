@@ -5,7 +5,7 @@ import '@/styles/thirdSecction/global.scss'
 
 const ThirdSectionComponent = () => {
     const eventName ="El tiempo avanza y la emoción crece... "
-    const eventDate= "2025-07-12:18:00:00".split(/[- :]/)
+    const eventDate= "2025-07-19:18:00:00".split(/[- :]/)
     const [timeRemaining, setTimeRemaining] = React.useState(0)
 
     const formatTime = (time) => {

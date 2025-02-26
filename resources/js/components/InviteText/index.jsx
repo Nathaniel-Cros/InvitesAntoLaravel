@@ -8,7 +8,7 @@ const InviteText = () => {
     return (
         <section id='invite-text' className='w-screen flex flex-col justify-center items-center pt-8'>
             <div className='flex flex-col justify-center items-center'>
-                <h1 className="text-center text-6xl font-Carattere text-[#c3b491]">Luzyeisy te invita...</h1>
+                <h1 className="text-center text-6xl font-Carattere text-[#c3b491]">La magia de esta noche...</h1>
             </div>
             <div className='flex flex-col md:flex-row justify-center items-center'>
                 <ScrollReveal classNames='w-11/12 md:w-5/12 p-7 text-justify'>

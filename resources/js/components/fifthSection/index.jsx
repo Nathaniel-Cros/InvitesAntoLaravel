@@ -23,16 +23,15 @@ const fifthSection = () => {
             setOptionsChildren([])
             setOptionsAdults([])
             setInvitesTotal(invite.adults + invite.children)
-            const arrayAdutls = []
+            const arrayAdults = []
             const arrayChildren = []
             for(let adult = 1; adult < invite.adults + 1; adult++) {
-                arrayAdutls.push(<Option isAdult={true} option={adult} />)
+                arrayAdults.push(<Option key={`option-adult-${adult}`} isAdult={true} option={adult} />)
             }
             for(let child = 0; child < invite.children + 1; child++) {
-                arrayChildren.push(<Option isAdult={false} option={child} />)
+                arrayChildren.push(<Option key={`option-child-${child}`} isAdult={false} option={child} />)
             }
-            console.log('..:: Arrays ::..', arrayAdutls, arrayChildren)
-            setOptionsAdults(arrayAdutls)
+            setOptionsAdults(arrayAdults)
             setOptionsChildren(arrayChildren)
         }
     }, [invite])

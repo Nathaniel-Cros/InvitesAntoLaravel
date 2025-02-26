@@ -1,11 +1,11 @@
 {
   "resources/js/app.js": {
-    "file": "assets/app-B4WnuAA2.js",
+    "file": "assets/app-CyMeDa_R.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-Dwk_v0d4.css"
+      "assets/app-DTxDuv5R.css"
     ],
     "assets": [
       "assets/sobre_1-CUmJSK18.png",
@@ -27,7 +27,8 @@
       "assets/bg-second-Cc-3qg_r.png",
       "assets/bgCount-DoIq8DyP.jpeg",
       "assets/bg-confirmation-DIOFPSn6.jpg",
-      "assets/pergamino-CW8lOSlW.png"
+      "assets/pergamino-CW8lOSlW.png",
+      "assets/bg-maps-5HWIOSM3.webp"
     ]
   },
   "resources/js/assets/images/Open.webp": {
@@ -57,6 +58,10 @@
   "resources/js/assets/images/bg-confirmation.jpg": {
     "file": "assets/bg-confirmation-DIOFPSn6.jpg",
     "src": "resources/js/assets/images/bg-confirmation.jpg"
+  },
+  "resources/js/assets/images/bg-maps.webp": {
+    "file": "assets/bg-maps-5HWIOSM3.webp",
+    "src": "resources/js/assets/images/bg-maps.webp"
   },
   "resources/js/assets/images/bg-second.png": {
     "file": "assets/bg-second-Cc-3qg_r.png",

@@ -1,11 +1,25 @@
 {
+  "_app-D3HnOfyJ.css": {
+    "file": "assets/app-D3HnOfyJ.css",
+    "src": "_app-D3HnOfyJ.css"
+  },
+  "_app-abw03AyN.js": {
+    "file": "assets/app-abw03AyN.js",
+    "name": "app",
+    "css": [
+      "assets/app-D3HnOfyJ.css"
+    ]
+  },
   "resources/js/app.js": {
-    "file": "assets/app-DqjbwBwO.js",
+    "file": "assets/app-DKF6I9iu.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
+    "imports": [
+      "_app-abw03AyN.js"
+    ],
     "css": [
-      "assets/app-DhRT3hVb.css"
+      "assets/app-Bq3-oTP3.css"
     ],
     "assets": [
       "assets/sobre_1-CUmJSK18.png",
@@ -29,6 +43,15 @@
       "assets/bg-confirmation-DIOFPSn6.jpg",
       "assets/pergamino-CW8lOSlW.png",
       "assets/bg-maps-5HWIOSM3.webp"
+    ]
+  },
+  "resources/js/app2.js": {
+    "file": "assets/app2-CYY2FJAR.js",
+    "name": "app2",
+    "src": "resources/js/app2.js",
+    "isEntry": true,
+    "imports": [
+      "_app-abw03AyN.js"
     ]
   },
   "resources/js/assets/images/Open.webp": {

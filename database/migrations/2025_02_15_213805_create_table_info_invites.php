@@ -18,6 +18,7 @@ return new class extends Migration
             $table->integer('children');
             $table->integer('confirm_adults');
             $table->integer('confirm_children');
+            $table->boolean('confirm');
             $table->timestamps();
         });
     }

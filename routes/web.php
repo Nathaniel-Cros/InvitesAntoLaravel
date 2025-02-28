@@ -9,3 +9,7 @@ Route::get('/{uuid}', function ($uuid) {
     }
     return view('welcome');
 });
+
+Route::get('/admin/all-invites', function () {
+    return view('all-invites');
+});

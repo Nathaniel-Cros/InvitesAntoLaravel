@@ -19,8 +19,10 @@ const AppMain = () => {
             setFirstTime(true)
             const id = window.location.pathname.replace('/', '')
             GetInvite(id).then(invite => {
+                console.log('..:: Invite Response ::..',invite, !invite?.success)
                 if (!invite?.success) {
-                    window.href = '/'
+                    console.error('..:: Not Found Invite ::..')
+                    window.location.href = '/'
                 }
                 setInvite(invite.data)
                 setTimeout(() => {

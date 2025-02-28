@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use App\Models\InfInvites;
-use PhpParser\Node\Scalar\String_;
 use Throwable;
 
 class InvitesInf extends Controller
@@ -46,6 +45,7 @@ class InvitesInf extends Controller
             $invite->children = $request->input('children');
             $invite->confirm_adults = 0;
             $invite->confirm_children = 0;
+            $invite->confirm = false;
             $invite->save();
 
             return response()->json(['success' => true, 'data' => $invite], 200);
@@ -65,6 +65,7 @@ class InvitesInf extends Controller
             $invite->children = $request->input('children');
             $invite->confirm_adults = $request->input('confirm_adults');
             $invite->confirm_children = $request->input('confirm_children');
+            $invite->confirm = $request->input('confirm');
             $invite->save();
 
             return response()->json(['success' => true, 'data' => $invite], 200);

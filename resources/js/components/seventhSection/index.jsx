@@ -15,8 +15,9 @@ const SeventhSection = () => {
             <section id="map-section" className='flex flex-col w-screen h-screen justify-center items-center gap-y-8 p-8 md:p-28 pt-8 pb-8'>
                 <ScrollReveal classNames='flex flex-col w-[100%] h-[100%] justify-center items-center gap-y-8'>
                     <h2 className='font-Carattere text-4xl md:text-6xl text-center text-[#c3b491]'>¡Cerca o lejos, tu presencia es lo que importa!</h2>
-                    <span className='font-Cormorant text-lg md:text-4xl text-center text-[#c3b491]'>Nos emociona compartir este día con quienes han sido parte importante en la vida de Antonella. Por cuestiones de organización, contamos con un espacio reservado para cada invitado especial.</span>
+                    <span className='font-Cormorant text-xl md:text-4xl text-center text-[#c3b491]'>Nos emociona compartir este día con quienes han sido parte importante en la vida de Antonella.</span>
                     <div className='w-[100%] h-[50%]' dangerouslySetInnerHTML={iframe}/>
+                    <span className='font-Carattere text-4xl md:text-6xl text-center text-[#c3b491]'>Por cuestiones de organización, contamos con un espacio reservado para cada invitado especial.</span>
                 </ScrollReveal>
             </section>
         </>

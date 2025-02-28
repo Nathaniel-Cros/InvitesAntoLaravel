@@ -9,6 +9,7 @@ import SixthSection from '@/components/sixthSection'
 import SeventhSection from '@/components/seventhSection'
 import PlayerMedia from '@/components/PlayerMedia'
 import useInviteStore from '@/store/inviteStore'
+import FooterSection from '@/components/footerSection'
 
 const PageInviteComponent = () => {
     const { openInvite } = useInviteStore()
@@ -26,6 +27,7 @@ const PageInviteComponent = () => {
             <FifthSectionComponent />
             <SixthSection />
             <SeventhSection />
+            <FooterSection />
         </div>
     )
 }

@@ -31,7 +31,7 @@ const SecondSectionComponent = () => {
         <>
             <section id='section-linetime' className='flex flex-col min-h-screen justify-center items-center gap-y-4 pt-20 pb-10 bg-[#c3b491]'>
                 <ScrollReveal classNames='flex flex-col gap-y-3 items-center'>
-                    <h2 className='text-6xl font-Carattere text-center text-[#010e30ff] pr-2 pl-2'>Mi galería</h2>
+                    <h2 className='text-4xl md:text-6xl font-Carattere text-center text-[#010e30ff] pr-2 pl-2'>Un reflejo de la emoción y la magia de este gran día...</h2>
                     <span className='text-2xl font-Cormorant text-center'>Cada foto refleja la alegría y emoción de este momento tan especial en la vida de Antonella. ¡Disfrútalas!</span>
                 </ScrollReveal>
                 <ScrollReveal classNames='flex flex-col items-center'>

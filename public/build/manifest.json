@@ -1,22 +1,22 @@
 {
-  "_app-D3HnOfyJ.css": {
-    "file": "assets/app-D3HnOfyJ.css",
-    "src": "_app-D3HnOfyJ.css"
+  "_app-B-7qaV_g.css": {
+    "file": "assets/app-B-7qaV_g.css",
+    "src": "_app-B-7qaV_g.css"
   },
-  "_app-abw03AyN.js": {
-    "file": "assets/app-abw03AyN.js",
+  "_app-COHxxK6M.js": {
+    "file": "assets/app-COHxxK6M.js",
     "name": "app",
     "css": [
-      "assets/app-D3HnOfyJ.css"
+      "assets/app-B-7qaV_g.css"
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-DKF6I9iu.js",
+    "file": "assets/app-BytnyL50.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "imports": [
-      "_app-abw03AyN.js"
+      "_app-COHxxK6M.js"
     ],
     "css": [
       "assets/app-Bq3-oTP3.css"
@@ -46,12 +46,12 @@
     ]
   },
   "resources/js/app2.js": {
-    "file": "assets/app2-CYY2FJAR.js",
+    "file": "assets/app2-v-oS1hdH.js",
     "name": "app2",
     "src": "resources/js/app2.js",
     "isEntry": true,
     "imports": [
-      "_app-abw03AyN.js"
+      "_app-COHxxK6M.js"
     ]
   },
   "resources/js/assets/images/Open.webp": {

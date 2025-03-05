@@ -24,7 +24,7 @@ const AllInvitesSections = () => {
 
     return (
         <>
-            <section id='all-invites' className='flex flex-col items-center justify-center w-screen min-h-screen'>
+            <section id='all-invites' className='flex flex-col items-center justify-center w-screen min-h-screen p-10'>
                 <h2 className='font-Carattere text-6xl text-center'>Invitaciones de Antonella</h2>
                 <hr/>
                 <div className='flex flex-row items-center justify-center w-[100%]'>

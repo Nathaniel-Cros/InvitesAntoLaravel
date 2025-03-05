@@ -23,36 +23,36 @@ const TableInfo = ({invites}) => {
     }
 
     return (
-        <section className='flex flex-col justify-center items-center w-[100%] gap-y-3'>
+        <section className='flex flex-col justify-center items-center w-[100%] gap-y-3 max-w-screen overflow-hidden'>
             <div className='flex flex-row justify-center items-center w-[90%] gap-x-3'>
                 <input className='rounded w-[30%] border border-[#dabb85ff] border-black p-3' value={search} onChange={(e) => { setSearch(e.target.value) }}/>
                 <button className='bg-[#dabb85ff] text-white rounded p-3' onClick={handleDeleteFilters} disabled={search.length === 0}>Borrar Filtos</button>
             </div>
-            <table className='w-[900px] md:w-[90%] text-center'>
-                <thead>
-                    <tr className='border'>
-                        <th>Familia</th>
-                        <th>Adultos</th>
-                        <th>Niños</th>
-                        <th>Adultos Confirmados</th>
-                        <th>Niños Confirmados</th>
-                        <th>Link a invitación</th>
-                        <th>Actualizar</th>
-                    </tr>
-                </thead>
-                <tbody>
+            <article className='w-[90%] text-center flex flex-col overflow-x-auto overflow-y-hidden'>
+                <div className='w-[900px] md:w-[100%] flex flex-col overflow-x-auto'>
+                    <div className='overflow-x-auto border grid grid-cols-7 gap-x-3'>
+                        <span className='flex-none'>Familia</span>
+                        <span className='flex-none'>Adultos</span>
+                        <span className='flex-none'>Niños</span>
+                        <span className='flex-none'>Adultos Confirmados</span>
+                        <span className='flex-none'>Niños Confirmados</span>
+                        <span className='flex-none'>Link a invitación</span>
+                        <span className='flex-none'>Actualizar</span>
+                    </div>
+                </div>
+                <div className='w-[900px] md:w-[100%] flex flex-col overflow-x-auto'>
                 {invitesFiltered?.map((invite) => (
-                    <tr key={`invite-${invite.id}`} className='border'>
-                        <td>{invite.family}</td>
-                        <td>{invite.adults}</td>
-                        <td>{invite.children}</td>
-                        <td>{invite.confirm_adults}</td>
-                        <td><a href={window.location.origin.concat(`/${invite.id}`)} target='_blank'>Ver Invitación</a></td>
-                        <td>{invite.confirm_children}</td>
-                    </tr>
+                    <div key={`invite-${invite.id}`} className='border grid grid-cols-7 gap-x-3'>
+                        <span>{invite.family}</span>
+                        <span>{invite.adults}</span>
+                        <span>{invite.children}</span>
+                        <span>{invite.confirm_adults}</span>
+                        <span>{invite.confirm_children}</span>
+                        <span><a href={window.location.origin.concat(`/${invite.id}`)} target='_blank'>Ver Invitación</a></span>
+                    </div>
                 ))}
-                </tbody>
-            </table>
+                </div>
+            </article>
         </section>
     )
 }

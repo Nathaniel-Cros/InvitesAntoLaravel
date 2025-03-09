@@ -13,7 +13,7 @@ const fourthSectionComponent = () => {
                     <span className='text-9xl font-FleurDeLeah z-10 animate-pulse w-[9rem]'>19</span>
                     <span className='text-3xl mr-24 font-Carattere z-10'>de Julio</span>
                     <span className='text-3xl ml-14 mt-[-2.5rem] font-Carattere z-10'>2025</span>
-                    <span className='text-3xl mt-[-1.5rem] font-Carattere z-10'>6:00 p.m.</span>
+                    <span className='text-3xl mt-[-1.5rem] font-Carattere z-10'>7:00 p.m.</span>
                 </ScrollReveal>
             </section>
         </>

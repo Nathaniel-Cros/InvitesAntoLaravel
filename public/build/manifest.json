@@ -11,7 +11,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-BytnyL50.js",
+    "file": "assets/app-ImumKrrD.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -31,6 +31,15 @@
       "assets/first-BEM_C1I6.jpeg",
       "assets/third-BbnEmJCx.jpeg",
       "assets/fourth-SS6ZvViA.jpeg",
+      "assets/Anto1-BCt8mpEX.webp",
+      "assets/Anto2-BgloByMO.webp",
+      "assets/Anto3-4-BjSZFr.webp",
+      "assets/Anto4-BkXiHz3L.webp",
+      "assets/Anto5-CCrCsB99.webp",
+      "assets/Anto7-BKBKGL9e.webp",
+      "assets/Anto8-D_SBxzfb.webp",
+      "assets/Anto9-D6wO24cY.webp",
+      "assets/Anto10-t-Akw756.webp",
       "assets/bg-CjOL-Una.mp4",
       "assets/text-decorator-BsFZA-W4.png",
       "assets/icon-dreess-CBAKLu8o.png",
@@ -57,6 +66,42 @@
   "resources/js/assets/images/Open.webp": {
     "file": "assets/Open-tdGT1UlR.webp",
     "src": "resources/js/assets/images/Open.webp"
+  },
+  "resources/js/assets/images/TimeLine/Anto1.webp": {
+    "file": "assets/Anto1-BCt8mpEX.webp",
+    "src": "resources/js/assets/images/TimeLine/Anto1.webp"
+  },
+  "resources/js/assets/images/TimeLine/Anto10.webp": {
+    "file": "assets/Anto10-t-Akw756.webp",
+    "src": "resources/js/assets/images/TimeLine/Anto10.webp"
+  },
+  "resources/js/assets/images/TimeLine/Anto2.webp": {
+    "file": "assets/Anto2-BgloByMO.webp",
+    "src": "resources/js/assets/images/TimeLine/Anto2.webp"
+  },
+  "resources/js/assets/images/TimeLine/Anto3.webp": {
+    "file": "assets/Anto3-4-BjSZFr.webp",
+    "src": "resources/js/assets/images/TimeLine/Anto3.webp"
+  },
+  "resources/js/assets/images/TimeLine/Anto4.webp": {
+    "file": "assets/Anto4-BkXiHz3L.webp",
+    "src": "resources/js/assets/images/TimeLine/Anto4.webp"
+  },
+  "resources/js/assets/images/TimeLine/Anto5.webp": {
+    "file": "assets/Anto5-CCrCsB99.webp",
+    "src": "resources/js/assets/images/TimeLine/Anto5.webp"
+  },
+  "resources/js/assets/images/TimeLine/Anto7.webp": {
+    "file": "assets/Anto7-BKBKGL9e.webp",
+    "src": "resources/js/assets/images/TimeLine/Anto7.webp"
+  },
+  "resources/js/assets/images/TimeLine/Anto8.webp": {
+    "file": "assets/Anto8-D_SBxzfb.webp",
+    "src": "resources/js/assets/images/TimeLine/Anto8.webp"
+  },
+  "resources/js/assets/images/TimeLine/Anto9.webp": {
+    "file": "assets/Anto9-D6wO24cY.webp",
+    "src": "resources/js/assets/images/TimeLine/Anto9.webp"
   },
   "resources/js/assets/images/TimeLine/first.jpeg": {
     "file": "assets/first-BEM_C1I6.jpeg",

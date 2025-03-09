@@ -6,6 +6,16 @@ import First from '@/assets/images/TimeLine/first.jpeg'
 import Second from '@/assets/images/TimeLine/second.jpeg'
 import Third from '@/assets/images/TimeLine/third.jpeg'
 import Fourth from '@/assets/images/TimeLine/fourth.jpeg'
+import Anto1 from '@/assets/images/TimeLine/Anto1.webp'
+import Anto2 from '@/assets/images/TimeLine/Anto2.webp'
+import Anto3 from '@/assets/images/TimeLine/Anto3.webp'
+import Anto4 from '@/assets/images/TimeLine/Anto4.webp'
+import Anto5 from '@/assets/images/TimeLine/Anto5.webp'
+import Anto6 from '@/assets/images/TimeLine/Anto7.webp'
+import Anto7 from '@/assets/images/TimeLine/Anto8.webp'
+import Anto8 from '@/assets/images/TimeLine/Anto8.webp'
+import Anto9 from '@/assets/images/TimeLine/Anto9.webp'
+import Anto10 from '@/assets/images/TimeLine/Anto10.webp'
 import '@/styles/secondSection/global.scss'
 
 const SecondSectionComponent = () => {
@@ -25,6 +35,46 @@ const SecondSectionComponent = () => {
         {
             original: Fourth,
             thumbnail: Fourth,
+        },
+        {
+            original: Anto1,
+            thumbnail: Anto1,
+        },
+        {
+            original: Anto2,
+            thumbnail: Anto2,
+        },
+        {
+            original: Anto3,
+            thumbnail: Anto3,
+        },
+        {
+            original: Anto4,
+            thumbnail: Anto4,
+        },
+        {
+            original: Anto5,
+            thumbnail: Anto5,
+        },
+        {
+            original: Anto6,
+            thumbnail: Anto6,
+        },
+        {
+            original: Anto7,
+            thumbnail: Anto7,
+        },
+        {
+            original: Anto8,
+            thumbnail: Anto8,
+        },
+        {
+            original: Anto9,
+            thumbnail: Anto9,
+        },
+        {
+            original: Anto10,
+            thumbnail: Anto10,
         },
     ];
     return (

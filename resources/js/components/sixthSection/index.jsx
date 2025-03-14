@@ -65,7 +65,7 @@ const SixthSection = () => {
                 <img src={TopPergamino} className='w-9/12' alt="----"/>
 
                 <ScrollReveal id="section-pergamino"
-                              classNames='flex flex-col w-[90%] md:w-[48%] pl-6 md:pl-12 pt-6 pb-6'>
+                              classNames='flex flex-col w-[63%] md:w-[54%] pl-6 md:pl-12 pt-6 pb-6'>
                     {arrayComponents.map((Component, index) => (Component))}
                 </ScrollReveal>
                 <img src={TopPergamino} className='w-9/12 rotate-180' alt="----"/>

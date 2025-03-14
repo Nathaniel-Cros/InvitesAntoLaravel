@@ -1,4 +1,5 @@
 import React from 'react'
+import { UpdateInvite } from '../../util'
 import ScrollReveal from '@/components/ScrollReveal'
 import TextDecorator from '@/assets/images/text-decorator.png'
 import DressIcon from '@/assets/images/icon-dreess.png'
@@ -12,6 +13,8 @@ const Option = ({isAdult, option}) => {
 }
 
 const fifthSection = () => {
+    const _selectAdults = React.useRef(null)
+    const _selectChildren = React.useRef(null)
     const [invitesTotal, setInvitesTotal] = React.useState(0)
     const [optionsAdults, setOptionsAdults] = React.useState([])
     const [optionsChildren, setOptionsChildren] = React.useState([])
@@ -20,6 +23,7 @@ const fifthSection = () => {
 
     React.useEffect(() => {
         if(invite) {
+            console.log('..:: Invite ::..', invite)
             setOptionsChildren([])
             setOptionsAdults([])
             setInvitesTotal(invite.adults + invite.children)
@@ -35,6 +39,26 @@ const fifthSection = () => {
             setOptionsChildren(arrayChildren)
         }
     }, [invite])
+
+    const confirmInvite = async () => {
+        const _invite = {...invite, confirm: 1}
+        if(_selectAdults?.current?.value) {
+            _invite.confirm_adults = parseInt(_selectAdults?.current?.value)
+        }
+        if(_selectChildren?.current?.value) {
+            _invite.confirm_children = parseInt(_selectChildren?.current?.value)
+        }
+        setInvite(_invite)
+        const response = await UpdateInvite(invite.id, _invite)
+        console.log('..:: Response ::..',response)
+    }
+
+    const declineInvite = async () => {
+        const _invite = {...invite, confirm: 1}
+        setInvite(_invite)
+        const response = await UpdateInvite(invite.id, _invite)
+        console.log('..:: Response ::..',response)
+    }
 
     if(!invite) return null
 
@@ -56,36 +80,74 @@ const fifthSection = () => {
                     <span className='font-Cormorant text-2xl text-center'>Tiene {invitesTotal} pases: {invite.adults > 1? `${invite.adults} adultos`:`${invite.adults} adulto`} {invite.children > 0? `${invite.children} niño${invite.children > 1? 's':''}`:``}</span>
                 </ScrollReveal>
                 <ScrollReveal >
-                    <div className='flex flex-col gap-y-3'>
-                        { invite.adults > 1 &&
-                            <div className='flex flex-row gap-x-3 font-Cormorant text-2xl'>
-                                <span>Confirmar adultos:</span>
-                                <select name="adults-confrmation" id="adults-confirmation">
-                                    {
-                                        optionsAdults.map( option => (
-                                            option
-                                        ))
-                                    }
-                                </select>
-                            </div>
-                        }
-                        { invite.children > 1 &&
-                            <div className='flex flex-row gap-x-3 font-Cormorant text-2xl'>
-                                <span>Confirmar niños:</span>
-                                <select name="children-confrmation" id="children-confirmation">
-                                    {
-                                        optionsChildren.map( option => (
-                                            option
-                                        ))
-                                    }
-                                </select>
-                            </div>
-                        }
-                    </div>
+                    {invite.confirm === 0 &&
+                        <div className='flex flex-col gap-y-3'>
+                            {invite.adults > 1 &&
+                                <div className='flex flex-row gap-x-3 font-Cormorant text-2xl'>
+                                    <span>Confirmar adultos:</span>
+                                    <select name="adults-confrmation" id="adults-confirmation" ref={_selectAdults}>
+                                        {
+                                            optionsAdults.map(option => (
+                                                option
+                                            ))
+                                        }
+                                    </select>
+                                </div>
+                            }
+                            {invite.children > 1 &&
+                                <div className='flex flex-row gap-x-3 font-Cormorant text-2xl'>
+                                    <span>Confirmar niños:</span>
+                                    <select name="children-confrmation" id="children-confirmation" ref={_selectChildren}>
+                                        {
+                                            optionsChildren.map(option => (
+                                                option
+                                            ))
+                                        }
+                                    </select>
+                                </div>
+                            }
+                        </div>
+                    }
+                    {invite.confirm !== 0 &&
+                        <div className='flex flex-col gap-y-3'>
+                            <span className='font-Cormorant text-2xl text-center'>Usted a confirmado</span>
+                            <span className='font-Cormorant text-2xl text-center'>{`${invite.confirm_adults} adulto${invite.confirm_adults > 1? 's':''} ${invite.confirm_children > 0? `${invite.confirm_children}niño${invite.confirm_children > 1? 's':''}`:``}`}</span>
+                        </div>
+                    }
                 </ScrollReveal>
                 <ScrollReveal classNames='flex flex-row gap-x-6 font-Alice text-2xl'>
-                    <button className='py-2 px-7 rounded border-2 hover:bg-[#010310] hover:text-white'>Confirmar</button>
-                    <button className='py-2 px-7 rounded border-2 hover:bg-[#010310] hover:text-white'>No podre asistir</button>
+                    {invite.confirm === 0 &&
+                        <>
+                            <button
+                                className='py-2 px-7 rounded border-2 hover:bg-[#010310] hover:text-white'
+                                onClick={() => {
+                                    confirmInvite()
+                                }}
+                            >
+                                Confirmar
+                            </button>
+                            <button
+                                className='py-2 px-7 rounded border-2 hover:bg-[#010310] hover:text-white'
+                                onClick={() => {
+                                    declineInvite()
+                                }}
+                            >
+                                No podre asistir
+                            </button>
+                        </>
+                    }
+                    {invite.confirm !== 0 &&
+                        <>
+                            <button
+                                className='py-2 px-7 rounded border-2 hover:bg-[#010310] hover:text-white'
+                                onClick={() => {
+                                    setInvite({...invite, confirm: 0})
+                                }}
+                            >
+                                Cambiar mi confirmación
+                            </button>
+                        </>
+                    }
                 </ScrollReveal>
                 <ScrollReveal classNames='flex flex-col justify-center items-center'>
                     <span>Codigo de vestimenta</span>

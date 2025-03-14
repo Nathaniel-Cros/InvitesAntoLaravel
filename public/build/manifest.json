@@ -1,25 +1,25 @@
 {
-  "_app-B-7qaV_g.css": {
-    "file": "assets/app-B-7qaV_g.css",
-    "src": "_app-B-7qaV_g.css"
-  },
-  "_app-COHxxK6M.js": {
-    "file": "assets/app-COHxxK6M.js",
+  "_app-DVhKVaQ4.js": {
+    "file": "assets/app-DVhKVaQ4.js",
     "name": "app",
     "css": [
-      "assets/app-B-7qaV_g.css"
+      "assets/app-b8xrB-si.css"
     ]
   },
+  "_app-b8xrB-si.css": {
+    "file": "assets/app-b8xrB-si.css",
+    "src": "_app-b8xrB-si.css"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-ImumKrrD.js",
+    "file": "assets/app-BtGJ1mEJ.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "imports": [
-      "_app-COHxxK6M.js"
+      "_app-DVhKVaQ4.js"
     ],
     "css": [
-      "assets/app-Bq3-oTP3.css"
+      "assets/app-TDb1R7DV.css"
     ],
     "assets": [
       "assets/sobre_1-CUmJSK18.png",
@@ -43,24 +43,24 @@
       "assets/bg-CjOL-Una.mp4",
       "assets/text-decorator-BsFZA-W4.png",
       "assets/icon-dreess-CBAKLu8o.png",
-      "assets/Top_pergamino-CGZylDKz.png",
+      "assets/Top_pergamino-DXLSwg3h.png",
       "assets/play-Cob0B2ez.png",
       "assets/PERFECT-D4q0K5Vh.mp3",
       "assets/fondoEstrellado-C_VSuXsB.gif",
       "assets/bg-second-Cc-3qg_r.png",
       "assets/bgCount-DoIq8DyP.jpeg",
       "assets/bg-confirmation-DIOFPSn6.jpg",
-      "assets/pergamino-CW8lOSlW.png",
+      "assets/pergamino-Dk-wRlx5.png",
       "assets/bg-maps-5HWIOSM3.webp"
     ]
   },
   "resources/js/app2.js": {
-    "file": "assets/app2-v-oS1hdH.js",
+    "file": "assets/app2-CLIGqlAF.js",
     "name": "app2",
     "src": "resources/js/app2.js",
     "isEntry": true,
     "imports": [
-      "_app-COHxxK6M.js"
+      "_app-DVhKVaQ4.js"
     ]
   },
   "resources/js/assets/images/Open.webp": {
@@ -120,7 +120,7 @@
     "src": "resources/js/assets/images/TimeLine/third.jpeg"
   },
   "resources/js/assets/images/Top_pergamino.png": {
-    "file": "assets/Top_pergamino-CGZylDKz.png",
+    "file": "assets/Top_pergamino-DXLSwg3h.png",
     "src": "resources/js/assets/images/Top_pergamino.png"
   },
   "resources/js/assets/images/bg-confirmation.jpg": {
@@ -148,7 +148,7 @@
     "src": "resources/js/assets/images/icon-dreess.png"
   },
   "resources/js/assets/images/pergamino.png": {
-    "file": "assets/pergamino-CW8lOSlW.png",
+    "file": "assets/pergamino-Dk-wRlx5.png",
     "src": "resources/js/assets/images/pergamino.png"
   },
   "resources/js/assets/images/play.png": {

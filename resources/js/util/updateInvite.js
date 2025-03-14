@@ -1,6 +1,6 @@
 const UpdateInvite = async (uuid, request) => {
     const data = await fetch(`/api/info-invite/${uuid}`,{
-        method: 'GET',
+        method: 'patch',
         headers: {
             'Content-Type': 'application/json'
         },

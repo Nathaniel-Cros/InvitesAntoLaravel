@@ -8,7 +8,8 @@ const useInviteStore = create((set) => ({
         adults: 0,
         children: 0,
         confirm_adults: 0,
-        confirm_children: 0
+        confirm_children: 0,
+        confirm: false
     },
     setOpenInvite: (newOpenInvite) => set({openInvite: newOpenInvite}),
     setInvite: (newInvite) => set({invite: newInvite})

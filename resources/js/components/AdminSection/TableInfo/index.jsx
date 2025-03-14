@@ -1,4 +1,5 @@
 import React from 'react'
+import iconWhats from '@/assets/images/iconWhats.webp'
 
 
 const TableInfo = ({invites}) => {
@@ -37,7 +38,7 @@ const TableInfo = ({invites}) => {
                         <span className='flex-none'>Adultos Confirmados</span>
                         <span className='flex-none'>Niños Confirmados</span>
                         <span className='flex-none'>Link a invitación</span>
-                        <span className='flex-none'>Actualizar</span>
+                        <span className='flex-none'>Compartir</span>
                     </div>
                 </div>
                 <div className='w-[900px] md:w-[100%] flex flex-col overflow-x-auto'>
@@ -49,6 +50,11 @@ const TableInfo = ({invites}) => {
                         <span>{invite.confirm_adults}</span>
                         <span>{invite.confirm_children}</span>
                         <span><a href={window.location.origin.concat(`/${invite.id}`)} target='_blank'>Ver Invitación</a></span>
+                        <span>
+                            <a target='_blank' href={`https://api.whatsapp.com/send?text=${decodeURI(`¡La cuenta regresiva comenzó! Aquí te dejo la invitación para los XV años de Antonella. ¡Te esperamos! \n ${window.location.origin.concat(`/${invite.id}`)}`)}`}>
+                                <img src={iconWhats} width='20' height='20' alt="whatsapp"/>
+                            </a>
+                        </span>
                     </div>
                 ))}
                 </div>

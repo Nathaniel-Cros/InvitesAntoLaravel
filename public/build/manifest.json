@@ -1,22 +1,22 @@
 {
-  "_app-DVhKVaQ4.js": {
-    "file": "assets/app-DVhKVaQ4.js",
+  "_app-Bn_mH-UR.css": {
+    "file": "assets/app-Bn_mH-UR.css",
+    "src": "_app-Bn_mH-UR.css"
+  },
+  "_app-Ga74G5Zs.js": {
+    "file": "assets/app-Ga74G5Zs.js",
     "name": "app",
     "css": [
-      "assets/app-b8xrB-si.css"
+      "assets/app-Bn_mH-UR.css"
     ]
   },
-  "_app-b8xrB-si.css": {
-    "file": "assets/app-b8xrB-si.css",
-    "src": "_app-b8xrB-si.css"
-  },
   "resources/js/app.js": {
-    "file": "assets/app-BtGJ1mEJ.js",
+    "file": "assets/app-zFA0Bvxd.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "imports": [
-      "_app-DVhKVaQ4.js"
+      "_app-Ga74G5Zs.js"
     ],
     "css": [
       "assets/app-TDb1R7DV.css"
@@ -55,12 +55,15 @@
     ]
   },
   "resources/js/app2.js": {
-    "file": "assets/app2-CLIGqlAF.js",
+    "file": "assets/app2-DCUU_bm3.js",
     "name": "app2",
     "src": "resources/js/app2.js",
     "isEntry": true,
     "imports": [
-      "_app-DVhKVaQ4.js"
+      "_app-Ga74G5Zs.js"
+    ],
+    "assets": [
+      "assets/iconWhats-CXZJdgVe.webp"
     ]
   },
   "resources/js/assets/images/Open.webp": {
@@ -146,6 +149,10 @@
   "resources/js/assets/images/icon-dreess.png": {
     "file": "assets/icon-dreess-CBAKLu8o.png",
     "src": "resources/js/assets/images/icon-dreess.png"
+  },
+  "resources/js/assets/images/iconWhats.webp": {
+    "file": "assets/iconWhats-CXZJdgVe.webp",
+    "src": "resources/js/assets/images/iconWhats.webp"
   },
   "resources/js/assets/images/pergamino.png": {
     "file": "assets/pergamino-Dk-wRlx5.png",

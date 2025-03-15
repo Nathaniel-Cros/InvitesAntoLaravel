@@ -11,7 +11,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-zFA0Bvxd.js",
+    "file": "assets/app-BGOd7IQA.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -32,11 +32,12 @@
       "assets/third-BbnEmJCx.jpeg",
       "assets/fourth-SS6ZvViA.jpeg",
       "assets/Anto1-BCt8mpEX.webp",
-      "assets/Anto2-BgloByMO.webp",
-      "assets/Anto3-4-BjSZFr.webp",
-      "assets/Anto4-BkXiHz3L.webp",
+      "assets/Anto2-KHZswxny.webp",
+      "assets/Anto3-BzO_IDmK.webp",
+      "assets/Anto4-WBo7ivov.webp",
       "assets/Anto5-CCrCsB99.webp",
-      "assets/Anto7-BKBKGL9e.webp",
+      "assets/Anto6-D6JntPlb.webp",
+      "assets/Anto7-B3YLXsqL.webp",
       "assets/Anto8-D_SBxzfb.webp",
       "assets/Anto9-D6wO24cY.webp",
       "assets/Anto10-t-Akw756.webp",
@@ -79,23 +80,27 @@
     "src": "resources/js/assets/images/TimeLine/Anto10.webp"
   },
   "resources/js/assets/images/TimeLine/Anto2.webp": {
-    "file": "assets/Anto2-BgloByMO.webp",
+    "file": "assets/Anto2-KHZswxny.webp",
     "src": "resources/js/assets/images/TimeLine/Anto2.webp"
   },
   "resources/js/assets/images/TimeLine/Anto3.webp": {
-    "file": "assets/Anto3-4-BjSZFr.webp",
+    "file": "assets/Anto3-BzO_IDmK.webp",
     "src": "resources/js/assets/images/TimeLine/Anto3.webp"
   },
   "resources/js/assets/images/TimeLine/Anto4.webp": {
-    "file": "assets/Anto4-BkXiHz3L.webp",
+    "file": "assets/Anto4-WBo7ivov.webp",
     "src": "resources/js/assets/images/TimeLine/Anto4.webp"
   },
   "resources/js/assets/images/TimeLine/Anto5.webp": {
     "file": "assets/Anto5-CCrCsB99.webp",
     "src": "resources/js/assets/images/TimeLine/Anto5.webp"
   },
+  "resources/js/assets/images/TimeLine/Anto6.webp": {
+    "file": "assets/Anto6-D6JntPlb.webp",
+    "src": "resources/js/assets/images/TimeLine/Anto6.webp"
+  },
   "resources/js/assets/images/TimeLine/Anto7.webp": {
-    "file": "assets/Anto7-BKBKGL9e.webp",
+    "file": "assets/Anto7-B3YLXsqL.webp",
     "src": "resources/js/assets/images/TimeLine/Anto7.webp"
   },
   "resources/js/assets/images/TimeLine/Anto8.webp": {

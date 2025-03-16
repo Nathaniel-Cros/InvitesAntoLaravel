@@ -77,7 +77,7 @@ const fifthSection = () => {
                 </ScrollReveal>
                 <ScrollReveal classNames='flex flex-col gap-y-8'>
                     <span className='text-7xl font-Carattere text-center'>
-                        {invite.family.includes('Sr') || invite.family.includes('Sra') || invite.family.includes('Srto') || invite.family.includes('Srta')? '':'Familia'} {invite?.family}
+                        {invite.family.includes('Sr') || invite.family.includes('Sra') || invite.family.includes('Srto') || invite.family.includes('Srta') || invite.family.includes('Hermanos')? '':'Familia'} {invite?.family}
                     </span>
                     <span className='font-Cormorant text-2xl text-center'>Tiene {invitesTotal} pases: {invite.adults > 1? `${invite.adults} adultos`:`${invite.adults} adulto`} {invite.children > 0? `${invite.children} niño${invite.children > 1? 's':''}`:``}</span>
                 </ScrollReveal>

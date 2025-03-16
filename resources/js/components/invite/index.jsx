@@ -38,7 +38,7 @@ const InviteComponent = () => {
             <section
                 className='flex flex-col w-screen h-screen justify-center content-center absolute left-0 top-0 z-0'>
                 <span id='family-name' className='text-4xl md:text-6xl font-Romanesco bg-[#dabb85ff] rounded px-4 text-[#010e30ff] absolute top-[73%] left-[5%] md:top-[64%] md:left-[15%] z-50'>
-                    {invite.family.includes('Sr') || invite.family.includes('Sra') || invite.family.includes('Srto') || invite.family.includes('Srta')? '':'Familia'} {invite?.family}
+                    {invite.family.includes('Sr') || invite.family.includes('Sra') || invite.family.includes('Srto') || invite.family.includes('Srta') || invite.family.includes('Hermanos')? '':'Familia'} {invite?.family}
                 </span>
                 <button id='btn-open'
                         className='h-[10%] md:h-[15%] w-[20%] md:w-[20%] flex justify-center items-center rounded-full z-50 m-auto'

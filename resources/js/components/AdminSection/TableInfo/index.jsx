@@ -32,13 +32,13 @@ const TableInfo = ({invites}) => {
             <article className='w-[90%] text-center flex flex-col overflow-x-auto overflow-y-hidden'>
                 <div className='w-[900px] md:w-[100%] flex flex-col overflow-x-auto'>
                     <div className='overflow-x-auto border grid grid-cols-7 gap-x-3'>
-                        <span className='flex-none'>Familia</span>
-                        <span className='flex-none'>Adultos</span>
-                        <span className='flex-none'>Niños</span>
-                        <span className='flex-none'>Adultos Confirmados</span>
-                        <span className='flex-none'>Niños Confirmados</span>
-                        <span className='flex-none'>Link a invitación</span>
-                        <span className='flex-none'>Compartir</span>
+                        <span className='flex-none font-bold'>Familia</span>
+                        <span className='flex-none font-bold'>Adultos</span>
+                        <span className='flex-none font-bold'>Niños</span>
+                        <span className='flex-none font-bold'>Adultos Confirmados</span>
+                        <span className='flex-none font-bold'>Niños Confirmados</span>
+                        <span className='flex-none font-bold'>Link a invitación</span>
+                        <span className='flex-none font-bold'>Compartir</span>
                     </div>
                 </div>
                 <div className='w-[900px] md:w-[100%] flex flex-col overflow-x-auto'>

@@ -69,6 +69,8 @@ const SixthSection = () => {
                     {arrayComponents.map((Component, index) => (Component))}
                 </ScrollReveal>
                 <img src={TopPergamino} className='w-9/12 rotate-180' alt="----"/>
+                <br/><br/>
+                <span className='text-5xl text-center font-Carattere pr-8 pl-8'>Terminamos el programa, pero lo mejor apenas comienza… ¡Que la alegría nos acompañe y la pista de baile no se quede vacía!.</span>
 
             </section>
         )

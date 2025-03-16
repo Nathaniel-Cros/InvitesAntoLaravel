@@ -1,22 +1,22 @@
 {
-  "_app-Bn_mH-UR.css": {
-    "file": "assets/app-Bn_mH-UR.css",
-    "src": "_app-Bn_mH-UR.css"
+  "_app-Bij-2Gno.css": {
+    "file": "assets/app-Bij-2Gno.css",
+    "src": "_app-Bij-2Gno.css"
   },
-  "_app-Ga74G5Zs.js": {
-    "file": "assets/app-Ga74G5Zs.js",
+  "_app-BzNLSjuc.js": {
+    "file": "assets/app-BzNLSjuc.js",
     "name": "app",
     "css": [
-      "assets/app-Bn_mH-UR.css"
+      "assets/app-Bij-2Gno.css"
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-o-LR2qPa.js",
+    "file": "assets/app-iCYhWWcB.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "imports": [
-      "_app-Ga74G5Zs.js"
+      "_app-BzNLSjuc.js"
     ],
     "css": [
       "assets/app-TDb1R7DV.css"
@@ -56,12 +56,12 @@
     ]
   },
   "resources/js/app2.js": {
-    "file": "assets/app2-DsS6xUlx.js",
+    "file": "assets/app2-DphMf4e7.js",
     "name": "app2",
     "src": "resources/js/app2.js",
     "isEntry": true,
     "imports": [
-      "_app-Ga74G5Zs.js"
+      "_app-BzNLSjuc.js"
     ],
     "assets": [
       "assets/iconWhats-CXZJdgVe.webp"

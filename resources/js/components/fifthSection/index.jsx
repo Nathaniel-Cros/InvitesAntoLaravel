@@ -96,7 +96,7 @@ const fifthSection = () => {
                                     </select>
                                 </div>
                             }
-                            {invite.children > 1 &&
+                            {invite.children >= 1 &&
                                 <div className='flex flex-row gap-x-3 font-Cormorant text-2xl'>
                                     <span>Confirmar niños:</span>
                                     <select name="children-confrmation" id="children-confirmation" ref={_selectChildren}>
